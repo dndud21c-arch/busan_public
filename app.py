@@ -383,7 +383,7 @@ else:
   )
 
 # 조작 버튼 영역
-btn_col1, btn_col2 = st.columns()
+btn_col1, btn_col2 = st.columns(2)
 with btn_col1:
   btn_extract = st.button(
       "📊 공고 세부 평형 및 우선/일반 배정표 실시간 추출",
